@@ -1,6 +1,7 @@
 'use client';
 
 import { Heart, MapPin, Mail } from 'lucide-react';
+import Link from 'next/link';
 
 export function FooterSection() {
   return (
@@ -96,6 +97,14 @@ export function FooterSection() {
             "Không có gì quý hơn độc lập, tự do"<br/>
             <span className="text-sm text-secondary">— Chủ tịch Hồ Chí Minh</span>
           </p>
+          <div className="mt-8">
+            <Link
+              href="/minigame"
+              className="inline-flex items-center rounded-lg bg-secondary px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-secondary/90"
+            >
+              Chơi "Mảnh ghép lịch sử"
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
