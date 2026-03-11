@@ -34,27 +34,27 @@ export function HeroSection() {
           className="translate-y-0 transition-transform duration-300 ease-out"
           style={{ transform: `translateY(${scrollY * 0.5}px)` }}
         >
-          <div className="max-w-4xl px-4 text-center">
-            <div className="mb-8 inline-block border-2 border-secondary px-4 py-2">
-              <h1 className="text-6xl md:text-7xl font-black tracking-tighter mb-4 text-balance leading-tight">
+          <div className="max-w-5xl px-4 text-center">
+            <div className="mb-8 inline-block border-2 border-secondary px-8 py-4">
+              <h1 className="text-7xl md:text-9xl font-serif font-black tracking-tight mb-2 text-balance leading-[1.1]">
                 CUỘC CHIẾN
               </h1>
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-bold mb-8 text-balance leading-tight">
+            <h2 className="text-5xl md:text-7xl font-serif font-bold mb-10 text-balance leading-[1.15]">
               Của Riêng Ai?
             </h2>
 
-            <div className="mb-12 h-1 w-24 bg-secondary mx-auto" />
+            <div className="mb-12 h-1 w-28 bg-secondary mx-auto" />
 
-            <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto leading-[1.9]">
               Kháng chiến chống Mỹ (1954 - 1975)<br/>
               Góc nhìn thời đại và đường lối của Đảng Cộng sản Việt Nam
             </p>
 
             {/* Call to action */}
-            <div className="flex flex-col items-center gap-4 pt-8">
-              <p className="text-sm uppercase tracking-widest text-gray-300">Khám phá sự thật lịch sử</p>
+            <div className="flex flex-col items-center gap-4 pt-6">
+              <p className="text-base uppercase tracking-[0.25em] text-gray-300 font-medium">Khám phá sự thật lịch sử</p>
               <div className="animate-bounce">
                 <ChevronDown className="w-6 h-6 text-secondary" />
               </div>
