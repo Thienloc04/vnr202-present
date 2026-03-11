@@ -162,7 +162,7 @@ export function WorldMapSection() {
           {/* Info box */}
           {activePoint && (
             <div className="relative z-20 mt-8 animate-in fade-in slide-in-from-top-4 duration-300">
-              <div className="bg-primary text-white p-8 rounded-lg border-2 border-secondary">
+              <div className="bg-gray-800 text-white p-8 rounded-lg border-2 border-secondary">
                 <h3 className="text-2xl font-bold mb-4">
                   {mapPoints.find((p) => p.id === activePoint)?.name}
                 </h3>
